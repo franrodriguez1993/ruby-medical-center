@@ -5,70 +5,88 @@
       "name": "Dr Madison Jane",
       "speciality": "Cardiology",
       "md": "45024",
-      "image": "/assets/img/drs/doc1.png"
+      "image": "/assets/img/drs/doc1.png",
+      "atention": ["Monday : 10:00 - 15:00", "Thursday: 09:00 - 12:00"]
     },
     {
       "id": 2,
       "name": "Dr Foster Jennifer",
       "speciality": "Endocrinology",
       "md": "45872",
-      "image": "/assets/img/drs/doc2.jpg"
+      "image": "/assets/img/drs/doc2.jpg",
+      "atention": ["Monday : 17:00 - 21:00", "Thursday: 07:00 - 11:00"]
     },
     {
       "id": 3,
       "name": "Dr Jameson Kit",
       "speciality": "Neurology",
       "md": "15872",
-      "image": "/assets/img/drs/doc3.png"
+      "image": "/assets/img/drs/doc3.png",
+      "atention": ["Wednesday : 12:00 - 18:00", "Friday: 09:00 - 12:00"]
     },
     {
       "id": 4,
       "name": "Dr Gomez Mario",
       "speciality": "Neurology",
       "md": "49992",
-      "image": "/assets/img/drs/doc4.jpg"
+      "image": "/assets/img/drs/doc4.jpg",
+      "atention": ["Monday : 10:00 - 15:00", "Wednesday: 09:00 - 12:00"]
     },
     {
       "id": 5,
       "name": "Dr Hill Erica",
       "speciality": "Ophthalmology",
       "md": "45592",
-      "image": "/assets/img/drs/doc5.jpg"
+      "image": "/assets/img/drs/doc5.jpg",
+      "atention": ["Tuesday : 10:00 - 15:00", "Thursday: 09:00 - 12:00"]
     },
     {
       "id": 6,
       "name": "Dr Perez Richard",
       "speciality": "Ophthalmology",
       "md": "45552",
-      "image": "/assets/img/drs/doc6.png"
+      "image": "/assets/img/drs/doc6.png",
+      "atention": ["Monday : 10:00 - 15:00", "Friday: 09:00 - 12:00"]
     },
     {
       "id": 7,
       "name": "Dr Harrison Kit",
       "speciality": "Pediatrics",
       "md": "42342",
-      "image": "/assets/img/drs/doc7.png"
+      "image": "/assets/img/drs/doc7.png",
+      "atention": ["Wednesday : 12:00 - 18:00", "Thursday: 09:00 - 12:00"]
     },
     {
       "id": 8,
       "name": "Dr Gordon Lawrence",
       "speciality": "Pediatrics",
       "md": "42319",
-      "image": "/assets/img/drs/doc8.jpg"
+      "image": "/assets/img/drs/doc8.jpg",
+      "atention": ["Monday : 10:00 - 15:00", "Wednesday : 12:00 - 18:00"]
     },
     {
       "id": 9,
       "name": "Dr Hill Marlen",
       "speciality": "Urology",
       "md": "91919",
-      "image": "/assets/img/drs/doc9.png"
+      "image": "/assets/img/drs/doc9.png",
+      "atention": [
+        "Monday : 10:00 - 15:00",
+        "Tuesday : 10:00 - 15:00",
+        "Thursday: 09:00 - 12:00"
+      ]
     },
     {
       "id": 10,
       "name": "Dr Harrison Monica",
       "speciality": "Psychiatry",
       "md": "23911",
-      "image": "/assets/img/drs/doc10.png"
+      "image": "/assets/img/drs/doc10.png",
+      "atention": [
+        "Monday : 10:00 - 15:00",
+        "Wednesday: 09:00 - 12:00",
+        "Thursday: 09:00 - 12:00"
+      ]
     }
   ]
 }

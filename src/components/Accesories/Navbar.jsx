@@ -1,12 +1,16 @@
 import React from "react";
 import "../../css/Accesories/Navbar.css";
+import { NavLink } from "react-router-dom";
+
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg d-flex flex-column">
+      <img
+        src="/assets/img/logo/ruby.png"
+        alt="ruby-logo"
+        className="navbar-logo"
+      />
       <div className="container-fluid">
-        <a className="navbar-brand" href="#">
-          Navbar
-        </a>
         <button
           className="navbar-toggler"
           type="button"
@@ -21,19 +25,14 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNavDropdown">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">
+              <NavLink className="nav-link" aria-current="page" to="/">
                 Home
-              </a>
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Features
-              </a>
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Pricing
-              </a>
+              <NavLink className="nav-link" to="professionals">
+                Professionals
+              </NavLink>
             </li>
             <li className="nav-item dropdown">
               <a
@@ -43,25 +42,55 @@ const Navbar = () => {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                Dropdown link
+                Specialities
               </a>
               <ul className="dropdown-menu">
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Action
-                  </a>
+                  <NavLink className="dropdown-item" to="endocrinology">
+                    Endocrinology
+                  </NavLink>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Another action
-                  </a>
+                  <NavLink className="dropdown-item" to="neurology">
+                    Neurology
+                  </NavLink>
                 </li>
                 <li>
-                  <a className="dropdown-item" href="#">
-                    Something else here
-                  </a>
+                  <NavLink className="dropdown-item" to="cardiology">
+                    Cardiology
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="ophthalmology">
+                    Ophthalmology
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="pediatrics">
+                    Pediatrics
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="urology">
+                    Urology
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink className="dropdown-item" to="psychiatry">
+                    Psychiatry
+                  </NavLink>
                 </li>
               </ul>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="location">
+                Location
+              </NavLink>
+            </li>
+            <li className="nav-item">
+              <NavLink className="nav-link" to="contact">
+                Contact
+              </NavLink>
             </li>
           </ul>
         </div>

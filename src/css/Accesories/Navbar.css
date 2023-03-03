@@ -1,0 +1,18 @@
+.navbar {
+  background-color: var(--color5);
+  border-bottom: 2px solid var(--color4);
+  font-family: var(--font1);
+}
+.navbar-logo {
+  width: 8rem;
+}
+
+.navbar-nav {
+  margin: 0 auto;
+  margin-top: 0.5rem;
+}
+
+.nav-link,
+.dropdown-item {
+  color: var(--color1);
+}
