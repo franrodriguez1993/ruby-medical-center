@@ -16,3 +16,18 @@
   --color4: #dcf5ef;
   --color5: #f7f9f9;
 }
+
+/** KEY FRAMES  **/
+
+@keyframes upAnimation {
+  from {
+    position: relative;
+    bottom: -80px;
+    opacity: 0;
+  }
+  to {
+    position: relative;
+    bottom: 0;
+    opacity: 1;
+  }
+}

@@ -5,6 +5,7 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import HomeRoute from "./routes/HomeRoute";
 import LocationRoute from "./routes/LocationRoute";
 import ContactRoute from "./routes/ContactRoute";
+import DoctorRoute from "./routes/DoctorRoute";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -15,6 +16,7 @@ root.render(
           <Route index element={<HomeRoute />} />
           <Route path="/location" element={<LocationRoute />} />
           <Route path="/contact" element={<ContactRoute />} />
+          <Route path="/doctor/:id" element={<DoctorRoute />} />
         </Route>
       </Routes>
     </BrowserRouter>

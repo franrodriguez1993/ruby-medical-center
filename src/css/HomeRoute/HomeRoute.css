@@ -13,3 +13,119 @@
   flex-direction: column;
   align-items: center;
 }
+
+.homeroute-banner,
+.homeroute-banner_professionals {
+  width: 100%;
+  height: 20rem;
+  margin: 3rem 0;
+  z-index: 3;
+}
+.homeroute-section_background {
+  position: absolute;
+  width: 100%;
+  height: 30rem;
+  background-color: var(--color2);
+}
+
+.homeroute-body_intro,
+.homeroute-body_professionals {
+  width: 90%;
+  background-color: #fff;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  margin-bottom: 5rem;
+  height: 15rem;
+}
+.homeroute-body_intro--img {
+  width: 30rem;
+  position: relative;
+  border-right: 2px solid var(--color1);
+}
+.homeroute-body_professionals--img {
+  width: 30rem;
+  position: relative;
+  border-left: 2px solid var(--color1);
+  object-fit: cover;
+}
+.homeroute-body_intro--text,
+.homeroute-body_professionals--text {
+  padding: 2rem;
+  color: var(--color1);
+}
+.homeroute-banner_professionals:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 1100px) {
+  /**banner**/
+  .homeroute-banner,
+  .homeroute-banner_professionals {
+    height: 17rem;
+  }
+
+  /**Image body**/
+  .homeroute-body_professionals--img,
+  .homeroute-body_intro--img {
+    width: 25rem;
+  }
+  .homeroute-body_intro,
+  .homeroute-body_professionals {
+    height: 12rem;
+  }
+}
+
+@media (max-width: 950px) {
+  /**banner**/
+  .homeroute-banner,
+  .homeroute-banner_professionals {
+    height: 15rem;
+  }
+  /**Image body**/
+  .homeroute-body_professionals--img,
+  .homeroute-body_intro--img {
+    width: 20rem;
+  }
+  .homeroute-body_intro,
+  .homeroute-body_professionals {
+    height: 10rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 800px) {
+  /**banner**/
+  .homeroute-banner,
+  .homeroute-banner_professionals {
+    height: 12rem;
+  }
+  /**body container**/
+  .homeroute-body_intro,
+  .homeroute-body_professionals {
+    flex-direction: column;
+    height: max-content;
+    font-size: 0.7rem;
+  }
+}
+@media (max-width: 600px) {
+  /**banner**/
+  .homeroute-banner,
+  .homeroute-banner_professionals {
+    height: 10rem;
+  }
+}
+@media (max-width: 500px) {
+  /**banner**/
+  .homeroute-banner,
+  .homeroute-banner_professionals {
+    height: 8rem;
+  }
+}
+@media (max-width: 340px) {
+  /**Image body**/
+  .homeroute-body_professionals--img,
+  .homeroute-body_intro--img {
+    width: 18rem;
+  }
+}
