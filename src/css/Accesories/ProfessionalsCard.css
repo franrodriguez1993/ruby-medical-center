@@ -1,0 +1,26 @@
+.professional-card {
+  margin: 2rem 2rem;
+  font-family: var(--font1);
+  color: var(--color1);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 16rem;
+  justify-content: space-around;
+}
+.image-card {
+  object-fit: cover;
+  width: 16rem;
+  height: 20rem;
+}
+.professional-card_name {
+  font-weight: bolder;
+}
+.professional-card_hr {
+  width: 60%;
+  border: 1px solid black;
+}
+
+.professional-card:hover {
+  cursor: pointer;
+}
