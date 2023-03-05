@@ -1,4 +1,5 @@
 import React from "react";
+import ContactForm from "../components/ContactRoute/ContactForm";
 import "../css/ContactRoute/ContactRoute.css";
 
 //svg:
@@ -65,6 +66,10 @@ const ContactRoute = () => {
             <p className="contactcard_description">001-5604-2223</p>
           </div>
         </article>
+      </div>
+
+      <div className="contactroute-form_container">
+        <ContactForm />
       </div>
     </div>
   );

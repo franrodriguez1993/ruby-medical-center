@@ -15,10 +15,9 @@ const LocationRoute = () => {
       <div className="locationroute-body">
         <div className="locationroute-introduction">
           <p>
-            Welcome to our medical center located in the vibrant and bustling
-            city of Busan, South Korea. Our center is located in one of the most
-            convenient and accessible areas of the city, making it easy for
-            patients to receive the care they need.
+            Our center is located in one of the most convenient and accessible
+            areas of the city, making it easy for patients to receive the care
+            they need.
           </p>
 
           <p>
@@ -38,6 +37,7 @@ const LocationRoute = () => {
 
         <h4>Map</h4>
         <iframe
+          title="location"
           id="iframeId"
           height="500px"
           width="100%"

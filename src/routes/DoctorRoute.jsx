@@ -25,11 +25,7 @@ const DoctorRoute = () => {
 
           <section className="drbody-image">
             <div className="drbody-image_background"></div>
-            <img
-              src={doctor.image}
-              alt="dr-image"
-              className="drbody-image_img"
-            />
+            <img src={doctor.image} alt="dr" className="drbody-image_img" />
           </section>
 
           <section className="drbody-info">

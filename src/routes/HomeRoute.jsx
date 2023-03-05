@@ -9,7 +9,7 @@ const HomeRoute = () => {
       {/**  FIRST BANNER  **/}
       <img
         src="/assets/img/banners/banner1.png"
-        alt="img-banner"
+        alt="banner"
         className="homeroute-banner"
       />
 
@@ -19,7 +19,7 @@ const HomeRoute = () => {
       <div className="homeroute-body_intro">
         <img
           src="/assets/img/home1.png"
-          alt="home-image"
+          alt="home-intro"
           className="homeroute-body_intro--img"
         />
         <p className="homeroute-body_intro--text">
@@ -49,7 +49,7 @@ const HomeRoute = () => {
         </p>
         <img
           src="/assets/img/home2.png"
-          alt="home-image"
+          alt="home-professionals"
           className="homeroute-body_professionals--img"
         />
       </div>
