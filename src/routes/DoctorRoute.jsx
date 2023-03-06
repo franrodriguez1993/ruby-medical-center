@@ -10,6 +10,7 @@ const DoctorRoute = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
+    window.scroll(0, 0);
     const filterDoc = doctorsJson.doctors.find((d) => d.id === parseInt(id));
     setDoctor(filterDoc);
   }, [id]);

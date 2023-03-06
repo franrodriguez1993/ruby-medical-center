@@ -62,18 +62,6 @@
   margin: 1rem 0;
 }
 
-.cc-first-child {
-  animation: upAnimation 1s ease-in forwards;
-}
-.cc-second-child {
-  animation: upAnimation 1.5s ease-in forwards;
-}
-.cc-thirt-child {
-  animation: upAnimation 2s ease-in forwards;
-}
-.cc-last-child {
-  animation: upAnimation 2.5s ease-in forwards;
-}
 .contactcard-img_container {
   width: 20%;
 }

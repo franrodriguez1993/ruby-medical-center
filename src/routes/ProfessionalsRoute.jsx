@@ -7,6 +7,7 @@ const ProfessionalsRoute = () => {
   const [doctors, setDoctors] = useState([]);
 
   useEffect(() => {
+    window.scroll(0, 0);
     setDoctors(doctorsJson.doctors);
   }, []);
 
@@ -15,10 +16,13 @@ const ProfessionalsRoute = () => {
       <h1 className="ProfessionalsRoute-title">Professionals</h1>
       <div className="ProfessionalsRoute-container_blank">
         <section className="ProfessionalsRoute-container_top">
-          <img
-            src="/assets/img/professionals.jpg"
-            className="pr-container_top--img"
-          />
+          <div className="prf-container_top--imgcontainer">
+            <img
+              src="/assets/img/professionals.jpg"
+              className="prf-container_top--img"
+            />
+          </div>
+
           <p className="pr-container_top--text">
             At Ruby Medical Center, our team of doctors is committed to
             providing the highest level of care to our patients. With years of
