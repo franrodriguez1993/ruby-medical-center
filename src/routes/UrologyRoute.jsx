@@ -20,6 +20,7 @@ const UrologyRoute = () => {
           <img
             src="/assets/img/Urology.jpg"
             className="ur-container_top--img"
+            alt="Urology banner ruby medical center"
           />
           <p className="ur-container_top--text">
             Urology is a medical specialty that focuses on the diagnosis and

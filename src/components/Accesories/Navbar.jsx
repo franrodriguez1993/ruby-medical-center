@@ -10,7 +10,7 @@ const Navbar = () => {
         alt="ruby-logo"
         className="navbar-logo"
       />
-      <div className="container-fluid">
+      <div className="container-fluid d-flex justify-content-end">
         <button
           className="navbar-toggler"
           type="button"

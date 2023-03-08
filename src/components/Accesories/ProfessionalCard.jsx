@@ -9,7 +9,11 @@ const ProfessionalCard = ({ professionals }) => {
       className="professional-card"
       onClick={() => navigate(`/doctor/${professionals.id}`)}
     >
-      <img src={professionals.image} className="image-card" />
+      <img
+        src={professionals.image}
+        className="image-card"
+        alt="doctor profile"
+      />
       <hr className="professional-card_hr" />
       <p className="professional-card_name">{professionals.name}</p>
       <p className="professional-card_md">MD {professionals.md}</p>

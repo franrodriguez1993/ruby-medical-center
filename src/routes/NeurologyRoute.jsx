@@ -20,6 +20,7 @@ const NeurologyRoute = () => {
           <img
             src="/assets/img/Neurology.jpg"
             className="nr-container_top--img"
+            alt="neurology banner"
           />
           <p className="nr-container_top--text">
             Neurology is a medical specialty that focuses on the diagnosis and

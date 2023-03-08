@@ -20,6 +20,7 @@ const PediatricsRoute = () => {
           <img
             src="/assets/img/Pediatrics.jpg"
             className="pr-container_top--img"
+            alt="pediatry banner"
           />
           <p className="pr-container_top--text">
             Pediatrics is a medical specialty that focuses on the health and

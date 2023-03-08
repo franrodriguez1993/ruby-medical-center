@@ -20,6 +20,7 @@ const OphthalmologyRoute = () => {
           <img
             src="/assets/img/Ophthalmology.jpg"
             className="or-container_top--img"
+            alt="Ophthalmology banner"
           />
           <p className="or-container_top--text">
             Ophthalmology is a medical specialty that focuses on the diagnosis

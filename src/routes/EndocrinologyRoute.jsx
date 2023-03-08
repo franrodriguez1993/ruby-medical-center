@@ -20,6 +20,7 @@ const EndocrinologyRoute = () => {
           <img
             src="/assets/img/Endocrinology.jpg"
             className="er-container_top--img"
+            alt="endocrinology banner"
           />
           <p className="er-container_top--text">
             Endocrinology is a medical specialty that focuses on the diagnosis

@@ -52,7 +52,7 @@ const ContactForm = () => {
           id="name"
           className="contactform-input"
         />
-        <label htmlFor="name" className="contactform-label">
+        <label htmlFor="mail" className="contactform-label">
           Mail
         </label>
         <input
@@ -61,7 +61,7 @@ const ContactForm = () => {
           id="mail"
           className="contactform-input"
         />
-        <label htmlFor="name" className="contactform-label">
+        <label htmlFor="message" className="contactform-label">
           Message
         </label>
         <textarea

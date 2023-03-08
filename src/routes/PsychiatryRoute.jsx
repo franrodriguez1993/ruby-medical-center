@@ -20,6 +20,7 @@ const PsychiatryRoute = () => {
           <img
             src="/assets/img/Psychiatry.jpg"
             className="pqr-container_top--img"
+            alt="Psychiatry banner ruby medical center"
           />
           <p className="pqr-container_top--text">
             Psychiatry is a medical specialty that focuses on the diagnosis and

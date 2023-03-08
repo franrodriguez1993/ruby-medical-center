@@ -20,6 +20,7 @@ const ProfessionalsRoute = () => {
             <img
               src="/assets/img/professionals.jpg"
               className="prf-container_top--img"
+              alt="professionals banner"
             />
           </div>
 

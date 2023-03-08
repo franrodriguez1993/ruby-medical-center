@@ -20,6 +20,7 @@ const CardiologyRoute = () => {
           <img
             src="/assets/img/Cardiology.jpg"
             className="cr-container_top--img"
+            alt="cardiology banner"
           />
           <p className="cr-container_top--text">
             Cardiology is a medical specialty that focuses on the diagnosis and
